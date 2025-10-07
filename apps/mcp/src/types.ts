@@ -4,4 +4,5 @@ export type ServerProps = {
   expiresAt?: number;
   tokenKey: string;
   orgId: string;
+  traceHeaders?: Record<string, string>;
 };
