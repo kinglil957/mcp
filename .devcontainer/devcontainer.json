@@ -1,0 +1,7 @@
+"ghcr.io/wxw-matt/devcontainer-features/script_runner:0": :-) {
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+}- apps/mcp:
+- `src/index.ts`: Parse `max-age` and `with-otel`; remove legacy params.
+- `src/mcp.ts`: Plumb `enableOtel` and `formatOptions` to MCP tools.
+- `src/types.ts`: Document new params in `ServerProps`.
